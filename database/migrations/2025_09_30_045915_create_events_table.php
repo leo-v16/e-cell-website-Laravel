@@ -13,6 +13,9 @@ return new class extends Migration
     {
         Schema::create('events', function (Blueprint $table) {
             $table->id();
+            $table->string('poster')->nullable();
+            $table->string('title');
+            $table->string('content');
             $table->timestamps();
         });
     }

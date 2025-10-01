@@ -33,11 +33,3 @@
 
     </div>
 </form>
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const datepickerEl = document.getElementById('datepicker-title');
-        new Datepicker(datepickerEl, {
-            // options
-        });
-    });
-</script>

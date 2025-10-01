@@ -14,8 +14,8 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="bg-[#FDFDFC] dark:bg-[#0a0a0a] text-[#1b1b18]">
-        <x-admin-navbar heading="Admin Pannel"/>
-        <div class="flex">
+        <x-admin-navbar heading="Admin Pannel" subHeading="Content Management System"/>
+        <div class="flex pt-24">
             @yield('content')
         </div>
     </body>

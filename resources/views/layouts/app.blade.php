@@ -18,5 +18,6 @@
         <div class="flex pt-24">
             @yield('content')
         </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js" defer></script>
     </body>
 </html>

@@ -1,3 +1,3 @@
-<div class="bg-amber-950 sm:ml-65 outline outline-red-500 h-screen">
+<div class="w-full sm:ml-64 outline h-screen">
     {{ $slot }}
 </div>
